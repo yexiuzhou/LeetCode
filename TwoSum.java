@@ -1,5 +1,4 @@
-public class TwoSum
-{
+public class TwoSum {
     public int[] twoSum(int[] nums, int target) {
         int num1;
         int num2;

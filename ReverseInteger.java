@@ -1,6 +1,6 @@
 public class ReverseInteger {
     public int reverse(int x) {
-        Boolean neg = false;
+        boolean neg = false;
         int r = 0;
         int p = 0;
 
@@ -19,7 +19,7 @@ public class ReverseInteger {
                 return 0;
             }
             x = x/10;
-            p=r;
+            p = r;
         }
 
         if (neg){
